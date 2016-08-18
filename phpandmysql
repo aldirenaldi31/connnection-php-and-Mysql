@@ -1,0 +1,14 @@
+#How to connect Php and Mysql
+
+```<?php
+ 
+$user_name = "youruname";
+$password = "yourpass";
+$database = "yourdatabase";
+$host_name = "yourhost"; 
+ 
+mysql_connect($host_name, $user_name, $password);
+ 
+echo "Koneksi Terbuka";
+ 
+?>```
